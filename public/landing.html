@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-gray-900 text-white py-4">
+      <div class="max-w-6xl mx-auto flex justify-between items-center px-4">
+        <h1 class="text-3xl font-bold">🚗 Car Enthusiast Blog</h1>
+        <nav>
+          <a href="#" class="px-4 hover:text-yellow-400">Home</a>
+          <a href="#" class="px-4 hover:text-yellow-400">Categories</a>
+          <a href="#" class="px-4 hover:text-yellow-400">About</a>
+          <a href="#" class="px-4 hover:text-yellow-400">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative bg-cover bg-center h-96 flex items-center justify-center text-white text-center"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?sports-car');
+      "
+    >
+      <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+        <h2 class="text-4xl font-bold">Explore the World of Cars</h2>
+        <p class="mt-2 text-lg">From classics to electrics, we cover it all!</p>
+      </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="max-w-6xl mx-auto py-12 px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Featured Cars</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src="https://source.unsplash.com/400x250/?luxury-car"
+            alt="Luxury Car"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Luxury Rides</h3>
+            <p class="text-gray-700">
+              Step into the world of ultimate comfort with the latest luxury car
+              models.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src="https://source.unsplash.com/400x250/?electric-car"
+            alt="Electric Car"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Electric Revolution</h3>
+            <p class="text-gray-700">
+              Discover how electric cars are changing the future of the
+              automotive industry.
+            </p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src="https://source.unsplash.com/400x250/?classic-car"
+            alt="Classic Car"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Timeless Classics</h3>
+            <p class="text-gray-700">
+              Relive the golden age of automobiles with these stunning classic
+              cars.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="max-w-6xl mx-auto py-12 px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Categories</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="bg-blue-500 text-white px-4 py-2 rounded-full"
+          >Sports Cars</span
+        >
+        <span class="bg-green-500 text-white px-4 py-2 rounded-full"
+          >Electric Vehicles</span
+        >
+        <span class="bg-red-500 text-white px-4 py-2 rounded-full"
+          >Classic Cars</span
+        >
+        <span class="bg-purple-500 text-white px-4 py-2 rounded-full"
+          >Luxury Cars</span
+        >
+        <span class="bg-yellow-500 text-white px-4 py-2 rounded-full"
+          >SUVs</span
+        >
+      </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="max-w-6xl mx-auto py-12 px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Recent Posts</h2>
+      <div class="space-y-4">
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <h3 class="text-xl font-bold">The Rise of Electric Supercars</h3>
+          <p class="text-gray-600">March 10, 2025</p>
+        </div>
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <h3 class="text-xl font-bold">Top 10 Classic Cars You Must See</h3>
+          <p class="text-gray-600">February 28, 2025</p>
+        </div>
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <h3 class="text-xl font-bold">Why SUVs Are Dominating the Market</h3>
+          <p class="text-gray-600">February 15, 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="bg-gray-900 text-white py-12">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+        <p class="mb-4">
+          Subscribe to our newsletter for the latest car news and reviews.
+        </p>
+        <form class="flex justify-center">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="p-3 rounded-l-lg text-gray-900 focus:outline-none"
+          />
+          <button class="bg-yellow-500 px-4 py-3 rounded-r-lg">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+      <p>&copy; 2025 Car Enthusiast Blog | All rights reserved</p>
+      <div class="flex justify-center space-x-4 mt-2">
+        <a href="#" class="hover:text-yellow-400">Facebook</a>
+        <a href="#" class="hover:text-yellow-400">Twitter</a>
+        <a href="#" class="hover:text-yellow-400">Instagram</a>
+      </div>
+    </footer>
+  </body>
+</html>
